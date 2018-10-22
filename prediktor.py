@@ -63,7 +63,7 @@ predictions = svm.predict(test_vectors)
 print (test_tasks[0:5])
 print (predictions[0:5])
 
-new_tasks = ["Send Proposal To accenture", 'Send proposal to Hunkemoller','Ing Credit Card','Drink Beer']
+new_tasks = ["Send Proposal To Tica", 'Send proposal to Hunkemoller','Ing Credit Card','Drink Beer']
 new_vectors = vectorizer.transform(new_tasks)
 new_predictions = svm.predict(new_vectors)
 
